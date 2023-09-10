@@ -9,34 +9,45 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     <title>Mangacol</title>
+    <style>
+      /* Custom CSS for the header */
+      header.header-main {
+          background-image: url('https://mdbootstrap.com/img/Photos/Others/images/76.jpg');
+          background-size: cover;
+          background-position: center;
+          height: 50vh; /* You can adjust this height as needed */
+      }
+  </style>
 </head>
 <body>
     <header class="header-main">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Mangacol</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Explore</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Pricing</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Docs</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Blog</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Changelog</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+      <header class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand" href="#">Mangacol</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Explore</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Docs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Changelog</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
     </header>
 </body>
 </html>
