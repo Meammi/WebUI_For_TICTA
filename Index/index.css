@@ -1,0 +1,17 @@
+.header-main {
+    background-image: url('https://mdbootstrap.com/img/Photos/Others/images/76.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}
+.navbar-nav .nav-link {
+    color: white !important; /* Set the font color to white with !important */
+}
+
+.navbar-nav .nav-link:hover {
+    opacity: 0.7; /* Reduce opacity to 70% on hover */
+    text-decoration: underline; /* Add underline on hover */
+}
+footer.text-white {
+    color: white !important;
+}
