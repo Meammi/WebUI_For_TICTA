@@ -1,8 +1,11 @@
 .header-main {
-    background-image: url('https://mdbootstrap.com/img/Photos/Others/images/76.jpg');
+    background-image:url('/Img/IMG_2763.png');
     background-size: cover;
     background-position: center;
     height: 50vh;
+}
+title{
+    color: white;
 }
 .navbar-nav .nav-link {
     color: white !important; /* Set the font color to white with !important */
